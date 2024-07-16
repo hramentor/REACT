@@ -1,0 +1,95 @@
+
+
+React is front end javscript library used to build user interactive Websites. 
+
+Why React is popular 
+
+lot of features 
+
+Component Based structure 
+Virtual DOM 
+Community Support 
+JSX 
+Perfomance 
+Simplicity 
+One way data bindiing 
+
+
+....................................................................................................................
+
+What is a Bundler 
+
+Makes our application a Production Ready 
+
+
+Optimizes 
+Compress 
+Minize 
+Images size reduction 
+unwanted code removal 
+unused code removal 
+
+
+--> Bundler 
+
+what are the type odf bundlers used in react 
+
+
+Parcel 
+Webpack 
+Vite 
+
+
+............................................
+
+I was going to setup React project 
+
+npx create-react-app my-app 
+
+cd my-app
+npm start
+
+React - 18 version 
+
+................................................
+
+
+React.createElement("h1",{className:"head"},"Welcome to React") 
+
+<h1>Welcome to React</h1>
+
+............................................... 
+
+JSX --> Special type of Syntax introduced by react to make code easy 
+
+it is alsmost similar to html but it isnot html nor js 
+
+Does jsx understood by Browser ?   ----> (no)
+
+
+There is a compiler known as Babel 
+
+
+Babel --> jsx to js 
+
+
+
+
+
+Component -->1. Class Components (old way of writing) 2. Functional Component (latest way of writing react code)
+
+
+Component is nothing but a normal javascript function which returns jsx 
+
+
+const Head=()=>{
+
+return (
+    <div></div>
+
+)
+
+
+}
+
+//now we are going to create a Component 
